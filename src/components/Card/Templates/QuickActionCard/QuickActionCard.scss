@@ -1,0 +1,21 @@
+.container-quick{
+    background: #FFFFFF;
+box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+border-radius: 8px;
+width: 75px;
+height: 88px;
+}
+
+.quick-img{
+    padding: 12px 20px 0 20px;
+}
+
+.quick-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+height: 28px;
+}

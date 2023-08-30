@@ -1,0 +1,125 @@
+.adm-button{
+    font-family: 'Montserrat';
+  }
+  
+  .fullButton {
+  
+    /* Button Styling */
+    &.adm-button {
+      height: 48px;
+      border-radius: 24px;
+      width: "100%";
+      background-color: #ffde00;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  
+    &.adm-button:not(.adm-button-default) {
+      --border-color: none;
+      --text-color: black;
+      font-family: 'Montserrat';
+    }
+  
+    &.adm-button-disabled {
+      background-color: #FFF7BE !important;
+      opacity: 1;
+      color: #DDD7AA;
+    }
+  }
+  
+  
+  
+  .fullButtonIcon{
+    &.adm-button {
+      height: 48px;
+      border-radius: 24px;
+      width: "100%";
+      background-color: #ffde00;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  
+    &.adm-button:not(.adm-button-default) {
+      --border-color: none;
+      --text-color: black;
+      font-family: 'Montserrat';
+    }
+    div{
+      display: flex;
+      justify-content: space-between;
+      padding: 0 24px;
+    }
+  }
+  
+  
+  .sec-fullButton{
+      /* Button Styling */
+      &.adm-button {
+        height: 48px;
+        border-radius: 25px;
+        width: "100%";
+        background-color: #FFFFFF;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        border: 1px solid #CFCFCF;
+      }
+    
+      &.adm-button:not(.adm-button-default) {
+        --border-color: none;
+        --text-color: black;
+        font-family: 'Montserrat';
+      }
+    
+      &.adm-button-disabled {
+        opacity: 1;
+        background-color: #FFFFFF !important;
+        color: #CFCFCF;
+      }
+  }
+  
+  .sec-fullButtonIcon{
+    &.adm-button {
+      height: 48px;
+      border-radius: 24px;
+      width: "100%";
+      background-color: #FFFFFF;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      border: 1px solid #CFCFCF;
+  
+    }
+  
+    &.adm-button:not(.adm-button-default) {
+      --border-color: none;
+      --text-color: black;
+      font-family: 'Montserrat';
+    }
+    div{
+      display: flex;
+      justify-content: space-between;
+      padding: 0 24px;
+    }
+  }
+  
+  .link-fullButton{
+  
+      /* Button Styling */
+      &.adm-button {
+        height: 48px;
+        border-radius: 25px;
+        width: "100%";
+        background-color: transparent;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        border: none;
+        color: #2892E9;
+    
+      }
+  
+    
+  }

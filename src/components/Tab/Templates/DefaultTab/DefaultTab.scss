@@ -1,0 +1,24 @@
+.navigationTabs {
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+
+    .adm-tabs-tab-active{
+        color: black !important;
+        font-size: 14px !important;
+        line-height: 23px !important;
+        font-weight: 600 !important;
+    }
+  .adm-tabs-tab {
+    padding-bottom: 5px;
+    color: #7c7c7d;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+
+  }
+  .adm-tabs-tab-line {
+    background: #000000;
+    height: 4px;
+    border-radius: 0;
+  }
+}

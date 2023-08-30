@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root:root {
+  --adm-font-family: "Montserrat", sans-serif;
+}
+
+  /* Input styling */
+  .adm-input-element {
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 11px;
+    padding-top: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    -webkit-appearance: none;
+    /* //THIS IS TO FIX SAFARI INPUT HAVE ROUNDED CORNER// */
+    -webkit-border-radius: 0;
+  }
+  .inputError > .adm-input-element {
+    border-bottom: 1px solid red;
+  }
+  /* Input placeholder styling */
+  .adm-input-element::placeholder {
+    color: #cfcfcf;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  /* Input title styling */
+  .inputTitle {
+    font-size: 14px;
+    line-height: 18px;
+    color: black;
+    font-weight: 400;
+    display: flex;
+  }
+  
+  /* picker title styling */
+  .pickerTitle {
+    font-size: 14px;
+    line-height: 18px;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 8px;
+    display: flex;
+  }
+  
+  /* Text block styling */
+  .inputBlock {
+    margin-bottom: 24px;
+  }
+
+  .adm-space {
+    --gap-horizontal: 24px;
+  }
+  
+  .bumiBlock {
+    margin-top: 17px;
+  }
+  
+  .adm-radio-content {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: black;
+  }
+  
+  .adm-picker-view-mask-middle {
+    background: #f8f8f8;
+    border-top: none;
+    border-bottom: none;
+    z-index: 0;
+  }
+  
+  .adm-picker-view-mask-top {
+    background: none;
+  }
+  .adm-picker-view-mask-bottom {
+    background: none;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+  }
+  
+  .adm-picker-view-column {
+    z-index: 100000;
+    height: 77%;
+  }
+  .adm-picker-view-column-item[aria-label="active"] {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+  }
+  .adm-picker-view-column-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #7c7c7d;
+  }
+  
+  .adm-picker-header {
+    border-bottom: none;
+    padding: 9px 24px;
+  }
+  .adm-picker-view-mask {
+    justify-content: start;
+    margin-top: 77px;
+  }
+  .adm-picker-popup .adm-popup-body {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+    border-radius: 16px 16px 0px 0px;
+  }
+  .adm-picker-view-mask-top,
+  .adm-picker-view-mask-bottom {
+    flex: none;
+  }
+  
+  .adm-picker-header-button {
+    padding: 0px;
+    font-family: "Montserrat";
+  }
+  
+  .adm-mask {
+    background: rgba(0, 0, 0, 0.8) !important;
+    backdrop-filter: blur(5px);
+  }
+  .abcdef {
+    background: none;
+  }
+  
+  .doneButton {
+    background: #ffde00;
+    border: 1px solid #ffde00;
+    border-radius: 15px;
+    width: 96px;
+    height: 30px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: black;
+    font-family: "Montserrat";
+  }
+  
+  .cancelButton {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2892e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 17px;
+    background: none;
+    border: none;
+    font-family: "Montserrat";
+  }
+  
+  .doneButton:active::before{
+    opacity: 0;
+  }
+  .cancelButton:active::before{
+    opacity: 0;
+  }
+  .pickerBlock {
+    /* margin-top: 24px; */
+    margin-bottom: 24px;
+  }
+  
+  .adm-center-popup {
+    --min-width: var(--adm-center-popup-min-width, 327px);
+  }
+  
+  .adm-modal-footer .adm-modal-button {
+    width: 100%;
+  }
+  
+  .adm-modal-body:not(.adm-modal-with-image) {
+    /* padding: 35px 20px 20px 20px; */
+  }
+  
+
+  .adm-center-popup-close {
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+  }
+  
+  .adm-modal-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: black;
+    text-align: start;
+    padding: 40px 40px 0 40px;
+  }
+  
+  .adm-auto-center {
+    text-align: start;
+    padding: 44px 40px 30px 40px;
+  }
+  .adm-auto-center-content {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+  }
+  .adm-modal-content {
+    padding: 0;
+  }
+  
+  .adm-modal-footer {
+    padding-top: 16px;
+    padding-bottom: 32px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .pickerButton {
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid #cfcfcf;
+    border-radius: 24px;
+    text-align: start;
+    padding-left: 24px;
+    width: 100%;
+  }
+  
+  .pickerButton:active::before{
+    opacity: 0;
+  }

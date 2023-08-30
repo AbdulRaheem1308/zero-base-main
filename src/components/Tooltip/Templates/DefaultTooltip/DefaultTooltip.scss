@@ -1,0 +1,18 @@
+.tooltipMask {
+    --min-width: 315px;
+  }
+  
+  .tooltipBody {
+    height: 157px;
+    max-height: 70vh;
+    padding-top: 0 !important;
+    border-radius: 11px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    .adm-modal-footer {
+      display: none;
+    }
+    .adm-auto-center {
+      padding: 8px 40px 30px 40px;
+    }
+  }
+  

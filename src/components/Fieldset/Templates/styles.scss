@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+    flex: 1;
+    -webkit-box-flex: 1;
+}
+
+.content {
+    margin-top: 16px;
+}
+
+.titleBlock {
+    margin-bottom: 36px;
+}
+
+.title1 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+}
+
+.title2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}

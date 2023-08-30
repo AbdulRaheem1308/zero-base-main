@@ -1,0 +1,66 @@
+//style 1
+.CardContainer{
+    width: 327px;
+    height: 117px;
+    left: 24px;
+    top: 246px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 0 0px;
+    margin-bottom: 16px;
+    }
+    
+    .CardHeader{
+    width: 165px;
+    height: 18px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 4px;
+    margin-top: 16px;
+    margin-left: 16px;
+    }
+    
+    .CardContent{
+    width: 165px;
+    height: 54px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 25px;
+    margin-left: 16px;
+    }
+    
+    //style 2
+    .CardContainer2{
+    width: 327px;
+    height: 80px;   
+    left: 24px;
+    top: 246px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 0 0px;
+    margin-bottom: 16px;
+    }
+    
+    .CardMainContainer2{
+    display: flex;
+    flex-direction: row;
+    }
+    
+    .CardImage{
+    width: 194px;
+    height: 153px;
+    left: -24px;
+    top: -44px;
+    }
+    
+    .subContent2{
+        width: 165px;
+        height: 54px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 13px;
+        margin-bottom: 25px;
+        margin-left: 16px;
+        }

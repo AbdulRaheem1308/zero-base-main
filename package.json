@@ -1,0 +1,36 @@
+{
+  "name": "mae-webs-example",
+  "homepage": ".",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "export PORT=3300 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@react-spring/web": "^9.5.5",
+    "antd-mobile": "^5.17.1",
+    "antd-mobile-icons": "^0.3.0",
+    "axios": "^0.27.2",
+    "dynamo": "https://github.com/yaser2us/dynamo.git#next",
+    "react": "17.0.0",
+    "react-scripts": "^3.4.4",
+    "react-dom": "17.0.0",
+    "sass": "^1.53.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

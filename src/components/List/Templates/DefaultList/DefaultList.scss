@@ -1,0 +1,21 @@
+.container-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 16px;
+  }
+  
+  .title-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  
+  .content-list {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+  }
+  
